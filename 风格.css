@@ -15,7 +15,7 @@ body{
 
 .logo{
     color: #fdfdfd;
-    font-size: 41px;
+    font-size: 2.5rem;
 }
 .logo span{
     color: #b088ff;
@@ -24,6 +24,7 @@ body{
     background-color: #333333;
     height: 80px;
     width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,6 +80,7 @@ body{
 .风格{
     width: 530px;
     margin: auto;
+    text-align: center;
 }
 
 .box{
@@ -96,7 +98,7 @@ body{
     width: 720px;
     border: 2px solid #ccc;
     float: right;
-    margin-right: 10px;
+    margin-right: 0px;;
     margin-top: -10px;
     height: 200px;
 }
