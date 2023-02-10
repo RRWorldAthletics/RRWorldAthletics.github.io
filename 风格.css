@@ -23,7 +23,7 @@ body{
 .menu-bar{
     background-color: #333333;
     height: 80px;
-    width: 100%;
+    width: 1920px;
 
     display: flex;
     justify-content: space-between;
