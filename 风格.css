@@ -1,0 +1,198 @@
+:root{
+    --color-primary:#B088ff;
+    --color-white:#e9e9e9;
+    --color-black:#141d28;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.logo{
+    color: #fdfdfd;
+    font-size: 41px;
+}
+.logo span{
+    color: #b088ff;
+}
+.menu-bar{
+    background-color: #333333;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu-bar ul li{
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+.menu-bar ul li a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+
+    transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+    color: #63bfd6;
+}
+
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdown-menu{
+    display: none;
+}
+.menu-bar ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #333333;
+}
+.menu-bar ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 8px;
+}
+
+
+.风格{
+    width: 530px;
+    margin: auto;
+}
+
+.box{
+    width: 450px;
+    margin-top: -35px;
+    height: 12px;
+}
+.time p{
+    font-size: 33px;
+    color: #e3a8e8;
+}
+
+/*新闻*/
+.风格 .news1{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 10px;
+    margin-top: -10px;
+    height: 200px;
+}
+.风格 .news2{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 12px;
+    height: 200px;
+}
+.风格 .news3{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 12px;
+    height: 200px;
+}
+.风格 .news4{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news5{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news6{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news7{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news8{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news9{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news10{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news11{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news12{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.风格 .news13{
+    width: 720px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
