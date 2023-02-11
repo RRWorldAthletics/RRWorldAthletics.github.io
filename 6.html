@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/05d30bd926.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="风格.css">
   <link rel="shortcut icon" href="picture\retouch_2023010914264730.ico" type="image/x-icon"/>
@@ -12,25 +13,25 @@
   <font style="font-size: 66px">
     <p style="text-align: center">
       <little></little></p>
-    <link rel="shortcut icon"type="image/x-icon"href="picture\retouch_2023010914264730.jpg" />
-  </font>
-  <style type="text/css">
-    . img{
-      display: inline;
-      float: left;
-      width: 80%;
-    }
-  </style>
-  <font style="font-size: 66px">
-    <p style="text-align: center">
-      <little></little></p>
-    <link rel="shortcut icon"type="image/x-icon"href="picture\retouch_2023010914264730.jpg" />
+    <link rel="shortcut icon"type="image/x-icon"href="picture\gtjl.jpg" />
+    <style>
+      @media(max-width: 1200px) {
+        .menu-bar1{
+          display: none;
+        }
+      }
+      @media(min-width: 1200px) {
+        .menu-bar2{
+          display: none;
+        }
+      }
+    </style>
   </font>
 </head>
 <script type="text/javascript" src="main.js"></script>
-<body  style="background: white">
-<div class="menu-bar">
-  <h1 style="white-space: nowrap" class="logo"><span>RR</span>国际田联</h1>
+<body onresize=hero(); style="background: white">
+<div style="white-space: nowrap" class="menu-bar1">
+  <h1 style="white-space: nowrap" class="logo1"><span>RR</span>国际田联</h1>
   <div class="box">
     <div class="time">
       <p id="getTime">
@@ -40,7 +41,7 @@
   </div>
   <ul>
     <li><a href="index.html">首页</a></li>
-    <li><a href="#">突破总汇 <i class="fas fa-caret-down"></a></i>
+    <li><a href="#">突破总汇 <i class="fas fa-caret-down"></i></a>
       <div class="dropdown-menu">
         <ul>
           <li><a href="100m.html">100m破10</a></li>
@@ -50,11 +51,52 @@
           <li><a href="三级跳.html">三级跳</a></li>
           <li><a href="60m.html">60m</a></li>
           <li><a href="110m栏.html">110m栏</a></li>
+          <li><a href="落后成绩.html">落后成绩</a> </li>
         </ul>
       </div>
     </li>
     <li><a href="荣誉.html">比赛荣誉</a></li>
     <li><a href="记录.html">记录</a></li>
+    <li><a href="https://RRfenduan.github.io">分段计算</a></li>
+  </ul>
+</div>
+
+
+<div style="white-space: nowrap" class="menu-bar2">
+  <h1 style="white-space: nowrap" class="logo2"><span>RR</span>国际田联</h1>
+  <div class="box">
+    <div class="time">
+      <p id="getTime2">
+
+      </p>
+    </div>
+  </div>
+  <ul>
+    <li><a href="index.html">首页</a></li>
+    <li><a href="#" onclick=""><i class="fa-solid fa-list-ul"></i></a>
+      <div class="dropdown-menu">
+        <ul>
+          <li><a href="#" onclick=""><i class="fa-solid fa-caret-left"></i> 突破总汇</a>
+            <div class="dropdown-menu-1">
+              <ul>
+                <li><a href="100m.html">100m</a></li>
+                <li><a href="200m.html">200m</a></li>
+                <li><a href="400m.html">400m</a></li>
+                <li><a href="跳远.html">跳远</a></li>
+                <li><a href="三级跳.html">三级跳</a></li>
+                <li><a href="60m.html">60m</a></li>
+                <li><a href="110m栏.html">110m栏</a></li>
+                <li><a href="落后成绩.html">落后成绩</a> </li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="荣誉.html">比赛荣誉</a></li>
+          <li><a href="记录.html">记录</a></li>
+          <li><a href="https://RRfenduan.github.io">分段计算</a></li>
+        </ul>
+      </div>
+    </li>
+
   </ul>
 </div>
 <div class="hero">
